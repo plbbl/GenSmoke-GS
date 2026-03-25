@@ -136,14 +136,6 @@ Final NVS Results
 * [ ] Add configs
 * [ ] Add reproducibility guide
 
----
-
-## 📌 Notes
-
-* This project follows a **reconstruction-oriented design philosophy**
-* MLLM enhancement is applied **independently per view with structure preservation**
-* Multi-run reconstruction improves **robustness and stability**
-* Final outputs are obtained via **averaging across multiple runs**
 
 ---
 
