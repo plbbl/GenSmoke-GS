@@ -1,81 +1,157 @@
-GenSmoke-GS
+<div align="center">
 
-Reconstruction-oriented multi-stage framework for smoke-degraded multi-view images.
+# 🚀 GenSmoke-GS
 
-📌 Overview
+### Reconstruction-Oriented Multi-Stage Framework for Smoke-Degraded Multi-View Images
 
-GenSmoke-GS is a multi-stage pipeline designed to improve 3D reconstruction under smoke-degraded conditions.
-It integrates:
+🔥 **Results released (03-25). Code and models coming soon.**
 
-Preliminary restoration
-Dehazing and illumination correction
-Controlled MLLM enhancement
-3DGS-MCMC reconstruction
-Multi-run fusion
-🚧 Release Plan
+</div>
 
-We are releasing this project in stages:
+---
 
-✅ 2026-03-25 (Today)
+## 📌 Overview
 
-Repository initialized
+**GenSmoke-GS** is a reconstruction-oriented multi-stage pipeline designed to improve **3D reconstruction under smoke-degraded multi-view conditions**.
 
-Release intermediate results
 
-Release final results
+---
 
-Documentation for results
+## 📦 Data & Results (03-25 Release)
 
-🔜 2026-03-26+
+> 📢 All results are released via **Baidu Netdisk**
+> 🔑 Extraction code: **`plbb`**
 
-Release core pipeline code
+---
 
-Release data preprocessing scripts
+### 📁 1. Smoke-Degraded Dataset
 
-Release reconstruction scripts
+* 🔗 https://pan.baidu.com/s/1e1jp8-uuqqKyWFSoL_VyvA
 
-Provide usage instructions
+---
 
-🔜 2026-03-27+
+### 🔧 2. Preliminary Restoration (UDPNet)
 
-Release model checkpoints / weights
+* 🔗 https://pan.baidu.com/s/1Ea5j3WNVK3vdZU8eVMRcAg
 
-Provide download links
+---
 
-Add evaluation scripts
+### 🌫️ 3. Dehazing (DCP)
 
-📂 Current Contents
-results/ → Intermediate and final outputs (released on 03-25)
-Code will be released soon (see timeline above)
-📊 Method Pipeline
+* 🔗 https://pan.baidu.com/s/1IDokNAZgEUQw1S2c8iXbFw
 
-(Coming soon)
+---
 
-🚀 Quick Start
+### 🧠 4. MLLM Enhancement
 
-Coming soon (code will be released after 03-26).
+* 🔗 https://pan.baidu.com/s/1M14Tw5RY42ovroslUz0PWA
 
-📦 TODO
+---
 
-Initialize repository
+### 🧱 5. Final Reconstruction Results
 
-Upload results (03-25)
+* 🔗 https://pan.baidu.com/s/1pW--LhgjuKOiCylqCLJcaQ
 
-Upload code (03-26)
+---
 
-Upload weights (03-27)
+### 🔁 6. Multi-run Results (91 runs)
 
-Add documentation
+* 🔗 https://pan.baidu.com/s/1roCxrpJEd8pTqFOMCbMlyQ
 
-Add examples
+---
 
-Add configs
+## 🔄 Pipeline Summary
 
-Add reproducibility guide
+```text
+Haze Images
+   ↓
+UDPNet Restoration
+   ↓
+DCP Dehazing
+   ↓
+MLLM Enhancement
+   ↓
+3DGS-MCMC Reconstruction (91 runs)
+   ↓
+Multi-run Averaging
+   ↓
+Final NVS Results
+```
 
-📌 Notes
-This project is currently under active release.
-Stay tuned for updates in the next few days.
-📬 Contact
+---
 
-If you have questions, feel free to open an issue.
+## 🚧 Release Plan
+
+> ⚠️ This repository is under active release. Components will be released step-by-step.
+
+### ✅ 2026-03-25 (Results)
+
+* [x] Repository initialized
+* [x] Release intermediate results
+* [x] Release final results
+* [ ] Add detailed documentation
+
+---
+
+### 🔜 2026-03-26+ (Code)
+
+* [ ] Release core pipeline code
+* [ ] Release preprocessing scripts
+* [ ] Release reconstruction scripts
+* [ ] Provide usage instructions
+
+---
+
+### 🔜 2026-03-27+ (Weights)
+
+* [ ] Release model checkpoints
+* [ ] Provide download links
+* [ ] Add evaluation scripts
+
+---
+
+
+
+
+## 📊 Method Pipeline
+
+> 🚧 Visualization coming soon
+
+---
+
+## 🚀 Quick Start
+
+> ⏳ Code will be available after **2026-03-26**
+
+---
+
+## 📦 TODO
+
+* [x] Initialize repository
+* [x] Upload results (03-25)
+* [ ] Upload code (03-26)
+* [ ] Upload weights (03-27)
+* [ ] Add documentation
+* [ ] Add examples
+* [ ] Add configs
+* [ ] Add reproducibility guide
+
+---
+
+## 📌 Notes
+
+* This project follows a **reconstruction-oriented design philosophy**
+* MLLM enhancement is applied **independently per view with structure preservation**
+* Multi-run reconstruction improves **robustness and stability**
+* Final outputs are obtained via **averaging across multiple runs**
+
+---
+
+## 📬 Contact
+
+If you have any questions, feel free to:
+
+* Open an **Issue**
+* Contact the authors
+
+---
