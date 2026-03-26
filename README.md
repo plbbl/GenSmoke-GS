@@ -12,19 +12,49 @@
 
 **GenSmoke-GS** is a reconstruction-oriented multi-stage pipeline designed to improve **3D reconstruction under smoke-degraded multi-view conditions**.
 
+---
+
+## 🖼️ Method Pipeline
+
+<div align="center">
+
+<img src="pip.png" width="85%">
+
+</div>
+
+---
+
+## 🔄 Pipeline Summary
+
+```text
+Haze Images
+   ↓
+UDPNet Restoration
+   ↓
+DCP Dehazing
+   ↓
+MLLM Enhancement
+   ↓
+3DGS-MCMC Reconstruction (91 runs)
+   ↓
+Multi-run Averaging
+   ↓
+Final NVS Results
+```
 
 ---
 
 ## 📦 Data & Results (03-25 Release)
 
 > 📢 All results are released via **Baidu Netdisk**
-> 🔑 Extraction code: **`plbb`**
+> 🔑 Extraction code: **plbb**
 
 ---
 
 ### 📁 1. Smoke-Degraded Dataset
 
 * 🔗 https://pan.baidu.com/s/1IoIEuE9XTFhEb4meOYp3_g?pwd=plbb
+
 ---
 
 ### 🔧 2. Preliminary Restoration (UDPNet)
@@ -54,26 +84,6 @@
 ### 🔁 6. Multi-run Results (91 runs)
 
 * 🔗 https://pan.baidu.com/s/1roCxrpJEd8pTqFOMCbMlyQ
-
----
-
-## 🔄 Pipeline Summary
-
-```text
-Haze Images
-   ↓
-UDPNet Restoration
-   ↓
-DCP Dehazing
-   ↓
-MLLM Enhancement
-   ↓
-3DGS-MCMC Reconstruction (91 runs)
-   ↓
-Multi-run Averaging
-   ↓
-Final NVS Results
-```
 
 ---
 
@@ -107,15 +117,6 @@ Final NVS Results
 
 ---
 
-
-
-
-## 📊 Method Pipeline
-
-> 🚧 Visualization coming soon
-
----
-
 ## 🚀 Quick Start
 
 > ⏳ Code will be available after **2026-03-26**
@@ -132,7 +133,6 @@ Final NVS Results
 * [ ] Add examples
 * [ ] Add configs
 * [ ] Add reproducibility guide
-
 
 ---
 
