@@ -21,13 +21,6 @@ It consists of two main modules:
 
 ---
 
-## 🖼️ Method Pipeline
-
-<div align="center">
-<img src="pip.png" width="85%">
-</div>
-
----
 
 ## 🖼️ Method Pipeline
 
