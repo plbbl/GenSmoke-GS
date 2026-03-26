@@ -24,8 +24,7 @@
 
 ### 📁 1. Smoke-Degraded Dataset
 
-* 🔗 https://pan.baidu.com/s/1e1jp8-uuqqKyWFSoL_VyvA
-
+* 🔗 https://pan.baidu.com/s/1IoIEuE9XTFhEb4meOYp3_g?pwd=plbb
 ---
 
 ### 🔧 2. Preliminary Restoration (UDPNet)
