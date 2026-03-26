@@ -2,7 +2,6 @@
 
 # 🚀 GenSmoke-GS
 
-### Reconstruction-Oriented Multi-Stage Framework for Smoke-Degraded Multi-View Images
 
 🔥 **Results and code released. Weights coming soon.**
 
