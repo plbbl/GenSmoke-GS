@@ -1,0 +1,1 @@
+Strictly preserve the original geometry, layout, edges, textures, folds, object shapes and color blocks. Do not change object positions or scene structure. Refine the image with natural colors and realistic indoor lighting, reduce noise. Remove visible smoke, haze, mist, fog, and veiling atmosphere.

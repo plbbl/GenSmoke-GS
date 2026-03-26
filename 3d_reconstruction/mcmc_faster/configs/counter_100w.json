@@ -1,0 +1,5 @@
+{
+    "resolution": 1,
+    "cap_max": 100000,
+    "iterations": 30000
+}

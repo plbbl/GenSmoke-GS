@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+build/
+output/*
+!output/.gitkeep
+prepared_scenes/*
+!prepared_scenes/.gitkeep
+*.pth
+.DS_Store

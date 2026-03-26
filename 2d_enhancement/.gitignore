@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.ckpt
+*.pth
+.udp_stage/
+.DS_Store

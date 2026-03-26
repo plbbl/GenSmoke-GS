@@ -1,0 +1,16 @@
+name: mcmc-nvs-open
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.*
+  - pip
+  - ninja
+  - setuptools
+  - wheel
+  - pip:
+    - numpy==1.26.4
+    - plyfile==1.1.3
+    - pillow==11.3.0
+    - tqdm==4.67.3
+    - tensorboard==2.20.0
+    - typing_extensions>=4.12.0

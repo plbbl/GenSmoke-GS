@@ -1,0 +1,1 @@
+Inference-only UDPNet subset. Python package path is `Dehazing.OTS.models` (upstream folder name). **Use ITS-trained checkpoints**, e.g. `ConvIR_UDPNet_ITS.ckpt`, `FSNet_UDPNet_ITS.ckpt`. See [`../../../README.md`](../../../README.md) (repository root).
